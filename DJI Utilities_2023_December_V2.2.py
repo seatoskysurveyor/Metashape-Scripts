@@ -1,6 +1,6 @@
 #Postprocessing Scrip V2.2 Created 6th December 2023
 #Agisoft Metashape Professional Version minimum 2.0
-#Author : Andreas Taylor, seatoskysurveyor@gmail.com; ataylor@seamspatial.com.au
+#Author : Andreas Taylor, seatoskysurveyor@gmail.com;
 #This script provides utilities to process DJI RTK geotagged images
 #Ensure project & image folder and subfolder/file permission is set to read and write
 #Refer to accompanying "read me" for setup instructions
@@ -666,3 +666,4 @@ print("To execute the 'Add Altitude' script, go to: {}".format(label))
 label = "DJI Utilities/Read Relative Altitude from DJI Metadata"
 Metashape.app.addMenuItem(label, read_DJI_relative_altitude)
 print("To execute the 'Read DJI Altitude' script, go to: {}".format(label))
+
